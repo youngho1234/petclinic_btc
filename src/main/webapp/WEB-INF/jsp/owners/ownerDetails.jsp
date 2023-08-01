@@ -6,7 +6,7 @@
 
 <petclinic:layout pageName="owners">
 
-    <h2 id="ownerInformation">Custmor Information</h2>
+    <h2 id="ownerInformation">Customer Information</h2>
 
     <table class="table table-striped" aria-describedby="ownerInformation">
         <tr>
@@ -30,7 +30,7 @@
     <spring:url value="{ownerId}/edit" var="editUrl">
         <spring:param name="ownerId" value="${owner.id}"/>
     </spring:url>
-    <a href="${fn:escapeXml(editUrl)}" class="btn btn-default">Edit Custmor</a>
+    <a href="${fn:escapeXml(editUrl)}" class="btn btn-default">Edit Customer</a>
 
     <spring:url value="{ownerId}/pets/new" var="addUrl">
         <spring:param name="ownerId" value="${owner.id}"/>

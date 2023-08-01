@@ -23,7 +23,7 @@
                 <th scope="col">Name</th>
                 <th scope="col">Birth Date</th>
                 <th scope="col">Type</th>
-                <th scope="col">Custmor</th>
+                <th scope="col">Customer</th>
             </tr>
             </thead>
             <tr>
