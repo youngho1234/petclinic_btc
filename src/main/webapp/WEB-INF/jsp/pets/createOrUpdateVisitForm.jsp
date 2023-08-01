@@ -20,9 +20,9 @@
         <table class="table table-striped" aria-describedby="pet">
             <thead>
             <tr>
-                <th scope="col">Name</th>
-                <th scope="col">Birth Date</th>
-                <th scope="col">Type</th>
+                <th scope="col">Count</th>
+                <th scope="col">Order date</th>
+                <th scope="col">Title of book</th>
                 <th scope="col">Customer</th>
             </tr>
             </thead>
