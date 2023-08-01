@@ -11,7 +11,7 @@
         <table id="vetsTable" class="table table-striped" aria-describedby="veterinarians">
             <thead>
             <tr>
-                <th scope="col">Name</th>
+                <th scope="col">Title of book</th>
                 <th scope="col">Author</th>
             </tr>
             </thead>

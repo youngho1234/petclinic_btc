@@ -48,11 +48,11 @@
             <tr>
                 <th scope="col">
                     <dl class="dl-horizontal">
-                        <dt>Name</dt>
+                        <dt>Count</dt>
                         <dd><c:out value="${pet.name}"/></dd>
-                        <dt>Birth Date</dt>
+                        <dt>Order Date</dt>
                         <dd><petclinic:localDate date="${pet.birthDate}" pattern="yyyy-MM-dd"/></dd>
-                        <dt>Type</dt>
+                        <dt>Title of book</dt>
                         <dd><c:out value="${pet.type.name}"/></dd>
                     </dl>
                 </th>
