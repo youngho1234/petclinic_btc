@@ -16,14 +16,14 @@
     <jsp:body>
         <h2><c:if test="${visit['new']}">New </c:if>Visit</h2>
 
-        <span id="pet"><strong>Pet</strong></span>
+        <span id="pet"><strong>Book</strong></span>
         <table class="table table-striped" aria-describedby="pet">
             <thead>
             <tr>
                 <th scope="col">Name</th>
                 <th scope="col">Birth Date</th>
                 <th scope="col">Type</th>
-                <th scope="col">Owner</th>
+                <th scope="col">Custmor</th>
             </tr>
             </thead>
             <tr>
