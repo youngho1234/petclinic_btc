@@ -12,8 +12,8 @@
         <thead>
         <tr>
             <th scope="col" style="width: 150px;">Name</th>
-            <th scope="col">City</th>
             <th scope="col" style="width: 200px;">Address</th>
+            <th scope="col" >City</th>
             <th scope="col" style="width: 120px">Books</th>
             <th scope="col">Telephone</th>
         </tr>
