@@ -12,7 +12,7 @@
             <thead>
             <tr>
                 <th scope="col">Name</th>
-                <th scope="col">Publisher</th>
+                <th scope="col">Author</th>
             </tr>
             </thead>
             <tbody>
