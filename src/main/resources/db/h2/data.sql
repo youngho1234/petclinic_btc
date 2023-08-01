@@ -15,12 +15,12 @@ INSERT INTO vet_specialties VALUES (3, 3);
 INSERT INTO vet_specialties VALUES (4, 2);
 INSERT INTO vet_specialties VALUES (5, 1);
 
-INSERT INTO types VALUES (1, 'Surviving in GCP');
-INSERT INTO types VALUES (2, 'How to be the best Bespinier');
-INSERT INTO types VALUES (3, 'How to become a one team');
-INSERT INTO types VALUES (4, 'Easy to learn GCP for beginners');
-INSERT INTO types VALUES (5, 'How to become an insider at BTC');
-INSERT INTO types VALUES (6, 'learn linux');
+INSERT INTO types VALUES (1, 'BTC');
+INSERT INTO types VALUES (2, 'BGK');
+INSERT INTO types VALUES (3, 'GCP');
+INSERT INTO types VALUES (4, 'LINUX');
+INSERT INTO types VALUES (5, 'GKE');
+INSERT INTO types VALUES (6, 'GCS');
 
 INSERT INTO owners VALUES (1, 'George', 'Franklin', '110 W. Liberty St.', 'Madison', '6085551023');
 INSERT INTO owners VALUES (2, 'Betty', 'Davis', '638 Cardinal Ave.', 'Sun Prairie', '6085551749');
