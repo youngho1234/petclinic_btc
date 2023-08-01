@@ -3,8 +3,9 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="petclinic" tagdir="/WEB-INF/tags" %>
 
+
 <petclinic:layout pageName="home">
-    <h2><fmt:message key="welcome"/></h2>
+    <h2 class="text-center"><br><fmt:message key="welcome"/></h2> <!-- text-center 클래스를 추가 -->
     <div class="row">
         <div class="col-md-12 text-center"> <!-- text-center 클래스를 추가 -->
             <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
