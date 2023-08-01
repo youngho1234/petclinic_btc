@@ -8,8 +8,7 @@
     <div class="row">
         <div class="col-md-12 text-center"> <!-- text-center 클래스를 추가 -->
             <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
-            <img class="img-responsive" alt="A cat and a dog" src="${petsImage}"/>
+            <img class="img-responsive" alt="A cat and a dog" src="${petsImage}" style="margin: auto; display: block;"/> <!-- 추가 스타일을 적용 -->
         </div>
     </div>
-    
 </petclinic:layout>
