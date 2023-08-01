@@ -7,7 +7,7 @@
 
 <petclinic:layout pageName="owners">
 
-    <h2>Find Owners</h2>
+    <h2>Find Custmor</h2>
 
     <spring:url value="/owners" var="formUrl"/>
     <form:form modelAttribute="owner" action="${fn:escapeXml(formUrl)}" method="get" class="form-horizontal"
@@ -23,12 +23,12 @@
         </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Find Owner</button>
+                <button type="submit" class="btn btn-default">Find Custmor</button>
             </div>
         </div>
 
     </form:form>
 
     <br/>
-    <a class="btn btn-default" href='<spring:url value="/owners/new" htmlEscape="true"/>'>Add Owner</a>
+    <a class="btn btn-default" href='<spring:url value="/owners/new" htmlEscape="true"/>'>Add Custmor</a>
 </petclinic:layout>
