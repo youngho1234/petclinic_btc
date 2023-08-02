@@ -14,8 +14,8 @@
             <th scope="col" style="width: 150px;">Name</th>
             <th scope="col" style="width: 200px;">Address</th>
             <th scope="col" >City</th>
-            <th scope="col" style="width: 120px">Books</th>
-            <th scope="col">Telephone</th>
+            <th scope="col" style="width: 120px">Telephone</th>
+            <th scope="col">Books</th>
         </tr>
         </thead>
         <tbody>
