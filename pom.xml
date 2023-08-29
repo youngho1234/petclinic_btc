@@ -519,24 +519,24 @@
             </dependencies>
         </profile>
         <profile>
-            <id>MySQL</id>
-            <properties>
-                <db.script>mysql</db.script>
-                <jpa.database>MYSQL</jpa.database>
-                <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:mysql://10.155.80.2:3306/petclinic?useUnicode=true</jdbc.url>
-                <jdbc.username>root</jdbc.username>
-                <jdbc.password>qwe123!@#</jdbc.password>
-            </properties>
-            <dependencies>
-                <dependency>
-                    <groupId>mysql</groupId>
-                    <artifactId>mysql-connector-java</artifactId>
-                    <version>8.0.31</version>
-                    <scope>runtime</scope>
-                </dependency>
-            </dependencies>
-        </profile>
+          <id>MySQL</id>
+           <properties>
+              <db.script>mysql</db.script>
+              <jpa.database>MYSQL</jpa.database>
+              <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
+              <jdbc.url>jdbc:mysql://10.155.80.2:3306/petclinic?useUnicode=true</jdbc.url>
+              <jdbc.username>root</jdbc.username>
+              <jdbc.password>qwe123!@#</jdbc.password>
+          </properties>
+        <dependencies>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.31</version>
+                <scope>runtime</scope>
+            </dependency>
+        </dependencies>
+     </profile>
         <profile>
             <id>PostgreSQL</id>
             <properties>
